@@ -1,0 +1,978 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/igor/Documents/Unibo/2° anno/Progetto FS/Divergences/Corridor
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53390
+Successfully changed project path to: /Users/igor/Documents/Unibo/2° anno/Progetto FS/Divergences/Corridor
+/Users/igor/Documents/Unibo/2° anno/Progetto FS/Divergences/Corridor
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 60.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.10f1 (297d780c91bc)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/igor/Documents/Unibo/2° anno/Progetto FS/Divergences/Corridor/Assets
+GfxDevice: creating device client; threaded=0
+2023-07-16 19:08:01.008 Unity[71870:948269] (null) preferred device: Apple M1 (high power)
+2023-07-16 19:08:01.008 Unity[71870:948269] Metal devices available: 1
+2023-07-16 19:08:01.008 Unity[71870:948269] 0: Apple M1 (high power)
+2023-07-16 19:08:01.008 Unity[71870:948269] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56870
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.10f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001275 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 52.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.383 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 58.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.382 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.10f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.7 MB.
+System memory in use after: 119.5 MB.
+
+Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3560.
+Total: 3.388208 ms (FindLiveObjects: 0.313625 ms CreateObjectMapping: 0.069958 ms MarkObjects: 1.723292 ms  DeleteObjects: 1.280084 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Ceiling2.mat
+  artifactKey: Guid(c9e84f7e081a1455ba60c16ba22ec6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling2.mat using Guid(c9e84f7e081a1455ba60c16ba22ec6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92e8b85d09d990b4fb055270ca3526e') in 1.202879 seconds
+  Import took 1.209418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Materials/Ceiling1.mat
+  artifactKey: Guid(8d4673bc1869a4e57a0a2abc90f07a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling1.mat using Guid(8d4673bc1869a4e57a0a2abc90f07a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd358e0c6c65b9e297a40bc80442f8558') in 0.040331 seconds
+  Import took 0.046219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Wall.mat
+  artifactKey: Guid(048cda47b92f64a8dbb2bef47a856417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Wall.mat using Guid(048cda47b92f64a8dbb2bef47a856417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6addd66a8254fdd6f9f05b040785c6') in 0.285733 seconds
+  Import took 0.289959 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.4 MB.
+System memory in use after: 134.2 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 9.561667 ms (FindLiveObjects: 0.417750 ms CreateObjectMapping: 0.073208 ms MarkObjects: 7.749250 ms  DeleteObjects: 1.320209 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 133.0 MB.
+System memory in use after: 130.8 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 9.631667 ms (FindLiveObjects: 0.424917 ms CreateObjectMapping: 0.072291 ms MarkObjects: 7.782750 ms  DeleteObjects: 1.350750 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.5 MB.
+System memory in use after: 127.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 20.187625 ms (FindLiveObjects: 0.885750 ms CreateObjectMapping: 0.072875 ms MarkObjects: 17.602541 ms  DeleteObjects: 1.625417 ms)
+
+========================================================================
+Received Prepare
+Switching build target platform(13) subTarget(537395200) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.1 MB.
+System memory in use after: 123.9 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 10.463709 ms (FindLiveObjects: 0.439833 ms CreateObjectMapping: 0.076500 ms MarkObjects: 8.483000 ms  DeleteObjects: 1.463166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 13, subtarget 524288, extendedPlatform 0 -> platform 13, subtarget 537395200, extendedPlatform 0
+  graphicsApiMask: 2048 -> 2099200
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 4.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.5 MB.
+System memory in use after: 120.3 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3665.
+Total: 10.921709 ms (FindLiveObjects: 0.571709 ms CreateObjectMapping: 0.084542 ms MarkObjects: 8.529708 ms  DeleteObjects: 1.734500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1069.966196 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(e58e6a304d79549179f7907175aa83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(e58e6a304d79549179f7907175aa83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84cf01dd69359a592958e4cb674274e') in 0.457354 seconds
+  Import took 0.473295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.737020 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f43657664d19fbc476a42e0fad91a9') in 0.002257 seconds
+  Import took 0.009361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002486 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f43657664d19fbc476a42e0fad91a9') in 0.001199 seconds
+  Import took 0.006753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.057900 seconds.
+  path: Assets/Footsteps/shoes_grass
+  artifactKey: Guid(1165382c6d3ff44d4b549d5fffee82ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass using Guid(1165382c6d3ff44d4b549d5fffee82ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd675c38d0403db2dc34239c6d3506b1a') in 0.001188 seconds
+  Import took 0.008754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.318833 seconds.
+  path: Assets/Footsteps/shoes_man
+  artifactKey: Guid(4d8bd9c01b01f46c2ab939e3cfa98434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_man using Guid(4d8bd9c01b01f46c2ab939e3cfa98434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2efb698b201654805f2b91bdf1c2e') in 0.001726 seconds
+  Import took 0.009382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002362 seconds.
+  path: Assets/Footsteps/shoes_man
+  artifactKey: Guid(4d8bd9c01b01f46c2ab939e3cfa98434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_man using Guid(4d8bd9c01b01f46c2ab939e3cfa98434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c2efb698b201654805f2b91bdf1c2e') in 0.001139 seconds
+  Import took 0.007899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.844061 seconds.
+  path: Assets/Footsteps/shoes_man_carpet
+  artifactKey: Guid(71111a78cc99541cd9f66d0315443f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_man_carpet using Guid(71111a78cc99541cd9f66d0315443f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14da61e074f46c409a6f42ddcffc9ca') in 0.001304 seconds
+  Import took 0.008868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002546 seconds.
+  path: Assets/Footsteps/shoes_man_carpet
+  artifactKey: Guid(71111a78cc99541cd9f66d0315443f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_man_carpet using Guid(71111a78cc99541cd9f66d0315443f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14da61e074f46c409a6f42ddcffc9ca') in 0.000979 seconds
+  Import took 0.008023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.657778 seconds.
+  path: Assets/Footsteps/shoes_man_cement
+  artifactKey: Guid(c7b5fd90286f143e98c9e0d684169545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_man_cement using Guid(c7b5fd90286f143e98c9e0d684169545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ceb111b440972ec4a1e717c74e1289b') in 0.001287 seconds
+  Import took 0.008993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822278 seconds.
+  path: Assets/Footsteps/shoes_water
+  artifactKey: Guid(372dc448e810646deb82c5d549856d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water using Guid(372dc448e810646deb82c5d549856d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67820d854b7cb7dc42ac3982489e7f0') in 0.001305 seconds
+  Import took 0.009328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854758 seconds.
+  path: Assets/Footsteps/shoes_woman
+  artifactKey: Guid(2eaf15f282539433aad0b3588397683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman using Guid(2eaf15f282539433aad0b3588397683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e72410a733a4c9bcd0c373bdb5852d') in 0.001218 seconds
+  Import took 0.008482 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002095 seconds.
+  path: Assets/Footsteps/shoes_woman
+  artifactKey: Guid(2eaf15f282539433aad0b3588397683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman using Guid(2eaf15f282539433aad0b3588397683d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e72410a733a4c9bcd0c373bdb5852d') in 0.000929 seconds
+  Import took 0.007146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767525 seconds.
+  path: Assets/Footsteps/shoes_woman_heel
+  artifactKey: Guid(1f760fd4b32274ffd8512f1aeb15acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel using Guid(1f760fd4b32274ffd8512f1aeb15acc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7beedce73cc44b386b64cd4aff186b') in 0.001575 seconds
+  Import took 0.009469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.541218 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_1.aif
+  artifactKey: Guid(b5d16e6a44c944ee583f6a03dbbe0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_1.aif using Guid(b5d16e6a44c944ee583f6a03dbbe0088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422f47c97612ffcddce40dc1f3782120') in 0.694997 seconds
+  Import took 0.700733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_7.aif
+  artifactKey: Guid(2329cae310ac54214aafd235e8b5f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_7.aif using Guid(2329cae310ac54214aafd235e8b5f6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ef9233a15bcd4937c281722c4f4567') in 0.007907 seconds
+  Import took 0.011596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_3.aif
+  artifactKey: Guid(e8700e4a906ff4ee08ae2da46365ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_3.aif using Guid(e8700e4a906ff4ee08ae2da46365ef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358a437c577fafa0ab414a6f288e3bb9') in 0.007501 seconds
+  Import took 0.012119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_9.aif
+  artifactKey: Guid(eceb8c899d74d4d569b741d2b1234916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_9.aif using Guid(eceb8c899d74d4d569b741d2b1234916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbc3a31140c137a8239fec5ac093a25') in 0.009043 seconds
+  Import took 0.014271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_8.aif
+  artifactKey: Guid(bb52e969d271f49d6a5638369e501f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_8.aif using Guid(bb52e969d271f49d6a5638369e501f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2195636f5dc27eed2ea4ab96f0305f9') in 0.008238 seconds
+  Import took 0.014130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_10.aif
+  artifactKey: Guid(8e0e2abb5bf6349a4a67dafdcf370127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_10.aif using Guid(8e0e2abb5bf6349a4a67dafdcf370127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a50883d7a647313c70888a10ccea179') in 0.008845 seconds
+  Import took 0.013243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_12.aif
+  artifactKey: Guid(0880d9211c66a4ca9a6b66b6fc23d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_12.aif using Guid(0880d9211c66a4ca9a6b66b6fc23d68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557c21a06d43a54b73d215939f383d1f') in 0.007195 seconds
+  Import took 0.011690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_2.aif
+  artifactKey: Guid(882700258bdd642f2beb6fef498ec9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_2.aif using Guid(882700258bdd642f2beb6fef498ec9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f64f2d4d6e6f04413ae182d5db262b4') in 0.011928 seconds
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_6.aif
+  artifactKey: Guid(14168a266802641329c21a57135254f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_6.aif using Guid(14168a266802641329c21a57135254f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f31797d879ba1c797a865d47603fa3') in 0.007623 seconds
+  Import took 0.012717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_5.aif
+  artifactKey: Guid(766dd3235547b4676b2166f674e832eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_5.aif using Guid(766dd3235547b4676b2166f674e832eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '526144ebdc1ccea6c82c9762dab2ed66') in 0.007820 seconds
+  Import took 0.012822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_4.aif
+  artifactKey: Guid(6dd009efffd6a44d095b21562964b486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_4.aif using Guid(6dd009efffd6a44d095b21562964b486) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e8671ae8f4d7c02f2bc755335dfef9') in 0.007314 seconds
+  Import took 0.012047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Footsteps/shoes_water/shoes_water_11.aif
+  artifactKey: Guid(8d1755323655e44d8a2252bbbb5e3329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_water/shoes_water_11.aif using Guid(8d1755323655e44d8a2252bbbb5e3329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d86b5eb38eee413e231c9e242634422') in 0.014307 seconds
+  Import took 0.018790 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 276.9 MB.
+System memory in use after: 274.8 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3667.
+Total: 9.941542 ms (FindLiveObjects: 0.409542 ms CreateObjectMapping: 0.071708 ms MarkObjects: 8.033375 ms  DeleteObjects: 1.425833 ms)
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 273.4 MB.
+System memory in use after: 271.2 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3667.
+Total: 27.711542 ms (FindLiveObjects: 0.480250 ms CreateObjectMapping: 0.076708 ms MarkObjects: 25.477917 ms  DeleteObjects: 1.675542 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 340.246195 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_1.aif
+  artifactKey: Guid(bb042a0373b9d46e2ac4ec52281d9caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_1.aif using Guid(bb042a0373b9d46e2ac4ec52281d9caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c7e173d5b4140167309ec23b8035de') in 0.032334 seconds
+  Import took 0.047473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_28.aif
+  artifactKey: Guid(d6937c5e5709748f7a3b6030400b7fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_28.aif using Guid(d6937c5e5709748f7a3b6030400b7fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18b6f0cb738fccd292ab9a309fbe542') in 0.006832 seconds
+  Import took 0.010720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_16.aif
+  artifactKey: Guid(40db04f26e99d45aca033b123f9ea155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_16.aif using Guid(40db04f26e99d45aca033b123f9ea155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6308231a675f4ff8103dba9681bb5365') in 0.006847 seconds
+  Import took 0.011667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_15.aif
+  artifactKey: Guid(6d8490d5cd0bb4332afe6eb782862003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_15.aif using Guid(6d8490d5cd0bb4332afe6eb782862003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62016d27233e9784a7c23bc2cc8a434') in 0.009063 seconds
+  Import took 0.013471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_9.aif
+  artifactKey: Guid(668d02384f3c24843808f3e8ab9c1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_9.aif using Guid(668d02384f3c24843808f3e8ab9c1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7f884ce51d2cce777fb90ce0a85551') in 0.008234 seconds
+  Import took 0.013357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_6.aif
+  artifactKey: Guid(0ca4fe2e1f5854dbeb37bfb565371a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_6.aif using Guid(0ca4fe2e1f5854dbeb37bfb565371a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20623008aaf0f2c62694bc3bbab925c6') in 0.007702 seconds
+  Import took 0.012317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_32.aif
+  artifactKey: Guid(2e4a185d1195542beb52b6524d18d547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_32.aif using Guid(2e4a185d1195542beb52b6524d18d547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1968f88f7ac8decdaa7a2a8dbc3a4f8f') in 0.007141 seconds
+  Import took 0.011754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_29.aif
+  artifactKey: Guid(88f81345709214fe4a2aebb2722a5710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_29.aif using Guid(88f81345709214fe4a2aebb2722a5710) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c252835703d5a4a1c3fa94222b0d2451') in 0.006506 seconds
+  Import took 0.011327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_36.aif
+  artifactKey: Guid(6b7b383897a6e44a5bf8069d7da4de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_36.aif using Guid(6b7b383897a6e44a5bf8069d7da4de99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '155d5a3bd435449351539ff6274c3a55') in 0.009771 seconds
+  Import took 0.014707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_26.aif
+  artifactKey: Guid(9347950f5860a4c09a5afd4a0ae67ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_26.aif using Guid(9347950f5860a4c09a5afd4a0ae67ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92b2d4de0523dc4a25b36925d341bbd') in 0.008682 seconds
+  Import took 0.013303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_41.aif
+  artifactKey: Guid(b6f3759e991bf4b6786b1c0b00800a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_41.aif using Guid(b6f3759e991bf4b6786b1c0b00800a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2697f7e280462d9638966ed8c2bd2b41') in 0.007536 seconds
+  Import took 0.012053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_18.aif
+  artifactKey: Guid(d47134f635a1b49eebdef5986c8eca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_18.aif using Guid(d47134f635a1b49eebdef5986c8eca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6683ce76e5dadbebbd807f67cc683b1') in 0.006918 seconds
+  Import took 0.012022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_33.aif
+  artifactKey: Guid(759c7758aef8b4186913da70889731e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_33.aif using Guid(759c7758aef8b4186913da70889731e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f6a58d2d128bed3df7c817099fe0c1') in 0.010113 seconds
+  Import took 0.014544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_21.aif
+  artifactKey: Guid(744e39252cbcc42879c1e18c534f9885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_21.aif using Guid(744e39252cbcc42879c1e18c534f9885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539a81e333e65af751ab3b727f727320') in 0.007563 seconds
+  Import took 0.011891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_14.aif
+  artifactKey: Guid(f697b461236784f9b87f01c9f4e9452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_14.aif using Guid(f697b461236784f9b87f01c9f4e9452b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a918d88872c2188b46293c703d434733') in 0.007478 seconds
+  Import took 0.012036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_34.aif
+  artifactKey: Guid(fbc89c3d29d244cb786bbf4e64ea8d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_34.aif using Guid(fbc89c3d29d244cb786bbf4e64ea8d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f595dfdc808044bb8dbf6b4ffa03414e') in 0.007641 seconds
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_3.aif
+  artifactKey: Guid(df36a40317cb54bf3ab88f27c2d6171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_3.aif using Guid(df36a40317cb54bf3ab88f27c2d6171c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1913390c55d2ec65d9eba66cc4c965a8') in 0.007020 seconds
+  Import took 0.011652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_25.aif
+  artifactKey: Guid(0d260cdcca42a45989cef8c4692244dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_25.aif using Guid(0d260cdcca42a45989cef8c4692244dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6a9ecdb1eb85134cb0a4575d5b83ab') in 0.007377 seconds
+  Import took 0.012255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_7.aif
+  artifactKey: Guid(35dc82aa45bf7477b899ce42ceee8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_7.aif using Guid(35dc82aa45bf7477b899ce42ceee8afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656fd1ef804c1aa2e263cf7ba77e2d17') in 0.010453 seconds
+  Import took 0.015078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_2.aif
+  artifactKey: Guid(3f19bc43e55e34f92937e463e2a819a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_2.aif using Guid(3f19bc43e55e34f92937e463e2a819a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6711f81b0f585d582b77d31516d119af') in 0.007936 seconds
+  Import took 0.013325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_20.aif
+  artifactKey: Guid(0f2193764daad42819ece4730307a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_20.aif using Guid(0f2193764daad42819ece4730307a7d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8093850345b1ce6a6a7fb7e99155caf') in 0.006978 seconds
+  Import took 0.011130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_40.aif
+  artifactKey: Guid(e7dbc656c3d8f4c8fb3ec904c20c0bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_40.aif using Guid(e7dbc656c3d8f4c8fb3ec904c20c0bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f60ba069bf0a295bac8f16415feb70') in 0.009463 seconds
+  Import took 0.013828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_13.aif
+  artifactKey: Guid(51e4fcbbb91c44f78894b668c38b9e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_13.aif using Guid(51e4fcbbb91c44f78894b668c38b9e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f75ea8776c7ff906bf38d7220851e54d') in 0.007668 seconds
+  Import took 0.012422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_12.aif
+  artifactKey: Guid(6a709ce8fcf0a4ad8a49e9c44919d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_12.aif using Guid(6a709ce8fcf0a4ad8a49e9c44919d17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807a7f32d2a3c6ec47afec51dd2fca10') in 0.006854 seconds
+  Import took 0.011705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_39.aif
+  artifactKey: Guid(8d39da6292e044065a6ab52c105a7f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_39.aif using Guid(8d39da6292e044065a6ab52c105a7f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1271eb02671ed81af091d60cf7039be0') in 0.007839 seconds
+  Import took 0.012948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_10.aif
+  artifactKey: Guid(c35ed3e528b514523b62b7ab203f8bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_10.aif using Guid(c35ed3e528b514523b62b7ab203f8bce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4090674f1db8e820396272bf60c11c') in 0.007802 seconds
+  Import took 0.011990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_11.aif
+  artifactKey: Guid(a8178d110d542417aa25ad5ff89737cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_11.aif using Guid(a8178d110d542417aa25ad5ff89737cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4592a7a5b6e10a5d0e172fa92743fbf0') in 0.006816 seconds
+  Import took 0.011185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_23.aif
+  artifactKey: Guid(684a56bbbdade4c2c84a883ef9e0a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_23.aif using Guid(684a56bbbdade4c2c84a883ef9e0a8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b32dc929bfd9f38487eebf35d91b14d5') in 0.010781 seconds
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_22.aif
+  artifactKey: Guid(bd21c4f671ce242038a876d18309055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_22.aif using Guid(bd21c4f671ce242038a876d18309055e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d13748551ced6422ea81e7441d5c891') in 0.007533 seconds
+  Import took 0.012292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_17.aif
+  artifactKey: Guid(3b5f2a0c3fd3d45ddb5bea20cc4ca312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_17.aif using Guid(3b5f2a0c3fd3d45ddb5bea20cc4ca312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05309c70878de3af60a5448b8832de1e') in 0.007694 seconds
+  Import took 0.012197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_8.aif
+  artifactKey: Guid(127bb2db42c044824bf2355af0dcaa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_8.aif using Guid(127bb2db42c044824bf2355af0dcaa83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5bf99b5ec35a31190561e605167dfe') in 0.008111 seconds
+  Import took 0.012405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_31.aif
+  artifactKey: Guid(542e254d5ea444c908115ecb65fa3044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_31.aif using Guid(542e254d5ea444c908115ecb65fa3044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6486c03beab3e022ad8c4ab66cad21') in 0.007570 seconds
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_35.aif
+  artifactKey: Guid(6cceb65fbd34a40f79cf601fb7ac1e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_35.aif using Guid(6cceb65fbd34a40f79cf601fb7ac1e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92a6debe16ed54f82111c2da3faacb4') in 0.006979 seconds
+  Import took 0.011276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_30.aif
+  artifactKey: Guid(54ff0f35b7f9e4d6db83e7fd751119b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_30.aif using Guid(54ff0f35b7f9e4d6db83e7fd751119b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e0d49a6471c3c2100d00465c73fb07') in 0.007282 seconds
+  Import took 0.011665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_37.aif
+  artifactKey: Guid(9decb2c78bb334873beed18755e58fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_37.aif using Guid(9decb2c78bb334873beed18755e58fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36787a96e5cc4272d59f14f1f5bf7f55') in 0.006716 seconds
+  Import took 0.011389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_27.aif
+  artifactKey: Guid(d272486b6808b4ea18fe02246177961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_27.aif using Guid(d272486b6808b4ea18fe02246177961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0425661fe9e08501f5c53ba0862906a7') in 0.009126 seconds
+  Import took 0.013341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_5.aif
+  artifactKey: Guid(cd008449e510e4b8d9a8a522806c5e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_5.aif using Guid(cd008449e510e4b8d9a8a522806c5e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd4690c8dddc627bc61c0504e75e376') in 0.007287 seconds
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_38.aif
+  artifactKey: Guid(9808c435b06ae41858b10dec9da05b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_38.aif using Guid(9808c435b06ae41858b10dec9da05b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b75230c8fd9da2f7eaf7f62633b81c9') in 0.008000 seconds
+  Import took 0.013002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_19.aif
+  artifactKey: Guid(d4442296c63e94744b7e771998e524e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_19.aif using Guid(d4442296c63e94744b7e771998e524e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed74d130b343b22ea25bb40f60016ea2') in 0.008197 seconds
+  Import took 0.012236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_24.aif
+  artifactKey: Guid(73aa2ea759625442283ea9137a9bb4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_24.aif using Guid(73aa2ea759625442283ea9137a9bb4c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd201b51f6e34af4bce6a2f41016e869b') in 0.006837 seconds
+  Import took 0.010852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_4.aif
+  artifactKey: Guid(32bd90159e19344ce8b5e518a4019156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woman_heel/shoes_woman_heel_4.aif using Guid(32bd90159e19344ce8b5e518a4019156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46296da1dcdb5652785ee53bde96229d') in 0.010087 seconds
+  Import took 0.014092 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 270.0 MB.
+System memory in use after: 267.8 MB.
+
+Unloading 46 unused Assets to reduce memory usage. Loaded Objects now: 3667.
+Total: 9.717625 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.071708 ms MarkObjects: 7.859833 ms  DeleteObjects: 1.375333 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.171567 seconds.
+  path: Assets/Materials/Ceiling3.mat
+  artifactKey: Guid(da31fec8a248a4a45920ee936613f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling3.mat using Guid(da31fec8a248a4a45920ee936613f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ed274103da1d72130b6551fda48754') in 0.117048 seconds
+  Import took 0.157100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 187.265161 seconds.
+  path: Assets/Materials/Grass.mat
+  artifactKey: Guid(975ee6874fa664f91b68cc28791651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass.mat using Guid(975ee6874fa664f91b68cc28791651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3f3c514691085b160018055db2c66e') in 0.052976 seconds
+  Import took 0.091265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.982876 seconds.
+  path: Assets/Materials/Grass004_2K-PNG
+  artifactKey: Guid(70fabb3406372488ea936ff0ab42919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass004_2K-PNG using Guid(70fabb3406372488ea936ff0ab42919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ae1d2a80b5a931b70ae55981fc747') in 0.001411 seconds
+  Import took 0.012662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.168414 seconds.
+  path: Assets/Materials/Grass
+  artifactKey: Guid(70fabb3406372488ea936ff0ab42919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass using Guid(70fabb3406372488ea936ff0ab42919d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b50710cf3402279841b332a7ef4e02') in 0.000839 seconds
+  Import took 0.006332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.507885 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_AmbientOcclusion.png
+  artifactKey: Guid(6984c8cf29c0241dbb2eb855022279c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_AmbientOcclusion.png using Guid(6984c8cf29c0241dbb2eb855022279c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2a40386164d5a075799b8e4519cb8f') in 0.185259 seconds
+  Import took 0.191596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_NormalDX.png
+  artifactKey: Guid(53ce25d30494446909d2c86588f52ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_NormalDX.png using Guid(53ce25d30494446909d2c86588f52ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c43e785cf0adfe737692f9f823fa9c3') in 0.012926 seconds
+  Import took 0.018515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Materials/Grass/Grass004_PREVIEW.jpg
+  artifactKey: Guid(572135fd86cb44a90af76fc1ddce6601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_PREVIEW.jpg using Guid(572135fd86cb44a90af76fc1ddce6601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348c68c9e40dacdf7d9d4a401612bad7') in 0.092208 seconds
+  Import took 0.098049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_NormalGL.png
+  artifactKey: Guid(b69fc102e30f944e8b3cf5b7f5e36df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_NormalGL.png using Guid(b69fc102e30f944e8b3cf5b7f5e36df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e97667cad811f558d1586eeaa9d9c23') in 0.009499 seconds
+  Import took 0.015885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_Color.png
+  artifactKey: Guid(ab31925cc591f4568af63863038c0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_Color.png using Guid(ab31925cc591f4568af63863038c0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfaf63b10fcf57efef429608272ae0c') in 0.010455 seconds
+  Import took 0.016646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_Roughness.png
+  artifactKey: Guid(00d9c3d99709445609b44271e587cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_Roughness.png using Guid(00d9c3d99709445609b44271e587cf90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cdedaabf0c3bc6dbd78bc07c6b7e6f8') in 0.008990 seconds
+  Import took 0.015556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_Displacement.png
+  artifactKey: Guid(15c1a950a5d4049a697f51ede3395666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_Displacement.png using Guid(15c1a950a5d4049a697f51ede3395666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abab7a8f574a207cc235d52cd8dce0e') in 0.009624 seconds
+  Import took 0.015823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.231755 seconds.
+  path: Assets/Materials/Grass/Grass004_2K_NormalDX.png
+  artifactKey: Guid(53ce25d30494446909d2c86588f52ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass/Grass004_2K_NormalDX.png using Guid(53ce25d30494446909d2c86588f52ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06103f4af5eb9679ecafa4eccdc25d85') in 0.015247 seconds
+  Import took 0.026704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.168482 seconds.
+  path: Assets/Materials/Grass.mat
+  artifactKey: Guid(975ee6874fa664f91b68cc28791651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass.mat using Guid(975ee6874fa664f91b68cc28791651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fe8892bdcf24928b84254031ab0888') in 0.050669 seconds
+  Import took 0.055936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 88.804753 seconds.
+  path: Assets/Footsteps/shoes_woodscuro
+  artifactKey: Guid(af6c6a142f54b4ecca5c1310bc6c9a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woodscuro using Guid(af6c6a142f54b4ecca5c1310bc6c9a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c830bf77af2e1d757e53bce06713f7b7') in 0.001742 seconds
+  Import took 0.019108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.689060 seconds.
+  path: Assets/Footsteps/shoes_woodchiaro
+  artifactKey: Guid(83a3bdb86324f4179903eb804c1f1fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woodchiaro using Guid(83a3bdb86324f4179903eb804c1f1fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cf32d65ae686b1f60fd3139a1203c') in 0.002180 seconds
+  Import took 0.007422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/Footsteps/shoes_woodchiaro
+  artifactKey: Guid(83a3bdb86324f4179903eb804c1f1fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_woodchiaro using Guid(83a3bdb86324f4179903eb804c1f1fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91cf32d65ae686b1f60fd3139a1203c') in 0.000802 seconds
+  Import took 0.005209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.937966 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_1.aif
+  artifactKey: Guid(b1a422eb13044487b841dd3e73b36090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_1.aif using Guid(b1a422eb13044487b841dd3e73b36090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e9a905b035d4c7b50a9dca6147d24f') in 0.022381 seconds
+  Import took 0.029358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_7.aif
+  artifactKey: Guid(cbc45646bdf934483a7c84bdfcf86217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_7.aif using Guid(cbc45646bdf934483a7c84bdfcf86217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff6a32da0d5fa6a5c79150b66b43786') in 0.009792 seconds
+  Import took 0.014838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_10.aif
+  artifactKey: Guid(933be2a3b8a324bb59c966b6bcc50819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_10.aif using Guid(933be2a3b8a324bb59c966b6bcc50819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8746eb49539ba6a0d24a88a7292fa9') in 0.009906 seconds
+  Import took 0.014565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_4.aif
+  artifactKey: Guid(9f4b28a22f79f453981248a289127d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_4.aif using Guid(9f4b28a22f79f453981248a289127d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d89e2404d9b52a4df46b812777ae24') in 0.007818 seconds
+  Import took 0.011940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_9.aif
+  artifactKey: Guid(3985db56b53b8495d84ac27dcf6a82a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_9.aif using Guid(3985db56b53b8495d84ac27dcf6a82a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5413a3ea86fc511fa2034e94b4bd03') in 0.008087 seconds
+  Import took 0.012490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_11.aif
+  artifactKey: Guid(f4463109036914449a401fec0371ea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_11.aif using Guid(f4463109036914449a401fec0371ea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13e6f47b1fba2a129d1069c9126a114') in 0.007584 seconds
+  Import took 0.012088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_12.aif
+  artifactKey: Guid(4c11838b1e1324d17ac6baab938afd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_12.aif using Guid(4c11838b1e1324d17ac6baab938afd9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cbe8d177c7426e359578da678dbe69') in 0.007631 seconds
+  Import took 0.011793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_5.aif
+  artifactKey: Guid(b4322f4bfd4cb46579a7c007d4854833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_5.aif using Guid(b4322f4bfd4cb46579a7c007d4854833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaadb78a893e00398461485684b9c1b9') in 0.007088 seconds
+  Import took 0.010962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_3.aif
+  artifactKey: Guid(0a67a038477a04873995643849600a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_3.aif using Guid(0a67a038477a04873995643849600a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c5d9de3cb5f8ad56334c8476b2f41e') in 0.008132 seconds
+  Import took 0.012614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_2.aif
+  artifactKey: Guid(c6f9c313a7e4f4185acf7dbdf969767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_2.aif using Guid(c6f9c313a7e4f4185acf7dbdf969767c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c888d3027d10e13db2137063b121567d') in 0.008302 seconds
+  Import took 0.012163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_6.aif
+  artifactKey: Guid(a78501580055d4ea89cdc5972c42a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_6.aif using Guid(a78501580055d4ea89cdc5972c42a2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19105ded1e2a00708a28289efbc48452') in 0.007483 seconds
+  Import took 0.011583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Footsteps/shoes_grass/shoes_grass_8.aif
+  artifactKey: Guid(f1c7076dadeed4590a9adae9eb592434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Footsteps/shoes_grass/shoes_grass_8.aif using Guid(f1c7076dadeed4590a9adae9eb592434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a026482099a14f85392d683657ae4c3a') in 0.007756 seconds
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 649.050731 seconds.
+  path: Assets/Materials/Ceiling3.mat
+  artifactKey: Guid(da31fec8a248a4a45920ee936613f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling3.mat using Guid(da31fec8a248a4a45920ee936613f1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6a9e4da401d2e7fa3b2172b34ef17b') in 0.065611 seconds
+  Import took 0.083041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000442 seconds.
+  path: Assets/Materials/Grass.mat
+  artifactKey: Guid(975ee6874fa664f91b68cc28791651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Grass.mat using Guid(975ee6874fa664f91b68cc28791651af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40841e9c04ecd3ebb4e369170b3b43d4') in 0.023797 seconds
+  Import took 0.028487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 442.380087 seconds.
+  path: Assets/Materials/Ceiling1.mat
+  artifactKey: Guid(8d4673bc1869a4e57a0a2abc90f07a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Ceiling1.mat using Guid(8d4673bc1869a4e57a0a2abc90f07a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6565b146bf4e6efd8b9a4ced2478fef5') in 0.072094 seconds
+  Import took 0.089642 seconds .
+
