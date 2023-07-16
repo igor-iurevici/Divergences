@@ -532,3 +532,59 @@ Received Import Request.
 Start importing Assets/Materials/a91aca0035abb1b49224b81f55f7c018.jpg using Guid(c01710b1d582b4445a1f2de283aea651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a128338b8353a14bbcd8f4242c8285a') in 0.012889 seconds
   Import took 0.021368 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1639.506789 seconds.
+  path: Assets/Materials/Floor_Wet.mat
+  artifactKey: Guid(9a7d48d096f46448a8a2598dda63b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor_Wet.mat using Guid(9a7d48d096f46448a8a2598dda63b8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f827129625e47271d10928db3ef11491') in 0.061207 seconds
+  Import took 0.080926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001482 seconds.
+  path: Assets/Materials/Marble.mat
+  artifactKey: Guid(b359e465e91304ed6893b791c7ecd359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Marble.mat using Guid(b359e465e91304ed6893b791c7ecd359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5548258fe0ce1aea1e55f9540acc59b5') in 0.186944 seconds
+  Import took 0.192124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 398.749839 seconds.
+  path: Assets/Materials/Floor_Wet/Water_original.png
+  artifactKey: Guid(f766d51b092e5476b815942d57a56da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Floor_Wet/Water_original.png using Guid(f766d51b092e5476b815942d57a56da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c07254af2ae9919b4989b48628c7eb9') in 0.014985 seconds
+  Import took 0.029889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.032901 seconds.
+  path: Assets/Materials/water2.jpg
+  artifactKey: Guid(cd1b53553795b46648cc2fc0a5f108c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/water2.jpg using Guid(cd1b53553795b46648cc2fc0a5f108c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6362c477afe2ffde7be1d7d6e2f86fa') in 0.007828 seconds
+  Import took 0.014724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.539958 seconds.
+  path: Assets/Materials/water3.jpg
+  artifactKey: Guid(eea26fa9e4f684fcfb69dec828e73a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/water3.jpg using Guid(eea26fa9e4f684fcfb69dec828e73a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeeea001da8cc3dd695494193168b28') in 0.005700 seconds
+  Import took 0.011683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.284578 seconds.
+  path: Assets/Materials/water4.jpg
+  artifactKey: Guid(c01710b1d582b4445a1f2de283aea651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/water4.jpg using Guid(c01710b1d582b4445a1f2de283aea651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cca641324590f80f694f6f0d184554') in 0.006638 seconds
+  Import took 0.012374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.718942 seconds.
+  path: Assets/Materials/water5.jpeg
+  artifactKey: Guid(ac51ae0bf57b44e829784e8e9779a516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/water5.jpeg using Guid(ac51ae0bf57b44e829784e8e9779a516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3b7b5414c721532c935aecfaa3e7b1') in 0.007263 seconds
+  Import took 0.014174 seconds .
+

@@ -3063,7 +3063,7 @@ Transform:
   - {fileID: 1469363717}
   - {fileID: 1845275035}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &119396468
 Mesh:
@@ -3550,7 +3550,7 @@ GameObject:
   - component: {fileID: 250450971}
   - component: {fileID: 250450976}
   m_Layer: 0
-  m_Name: Corridor
+  m_Name: Corridor sample
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8426,7 +8426,7 @@ Transform:
   - {fileID: 285511831}
   - {fileID: 2091128694}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &250450976
 MonoBehaviour:
@@ -10152,7 +10152,7 @@ Transform:
   - {fileID: 607889174}
   - {fileID: 1971475543}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &285511830
 PrefabInstance:
@@ -10628,7 +10628,7 @@ Transform:
   m_Children:
   - {fileID: 3537811407606088680}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &403372305
 GameObject:
@@ -10739,7 +10739,7 @@ Transform:
   m_Children:
   - {fileID: 1792581565}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410875514
 GameObject:
@@ -11871,7 +11871,7 @@ Transform:
   m_Children:
   - {fileID: 348152489}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &495030913
 MonoBehaviour:
@@ -12765,8 +12765,9 @@ Transform:
   - {fileID: 1278355951}
   - {fileID: 170171481}
   - {fileID: 1458322689}
+  - {fileID: 2138677393}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &671429184
 GameObject:
@@ -13624,7 +13625,7 @@ GameObject:
   - component: {fileID: 953139404}
   - component: {fileID: 953139403}
   m_Layer: 0
-  m_Name: Corridor 3
+  m_Name: Corridor 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15300,7 +15301,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953139402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -8}
+  m_LocalPosition: {x: 0, y: 0, z: -4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2072657089}
@@ -15308,7 +15309,7 @@ Transform:
   - {fileID: 1061049742}
   - {fileID: 1156432519}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &963046752
 Mesh:
@@ -16288,7 +16289,7 @@ GameObject:
   - component: {fileID: 1184729102}
   - component: {fileID: 1184729101}
   m_Layer: 0
-  m_Name: Corridor 2
+  m_Name: Corridor 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17964,7 +17965,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184729100}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -4}
+  m_LocalPosition: {x: 0, y: 0, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1580754062}
@@ -18344,7 +18345,7 @@ Transform:
   m_Children:
   - {fileID: 1931750447}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1342402214
 GameObject:
@@ -22568,12 +22569,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2138677391}
-  m_LocalRotation: {x: 0.1981829, y: 0.10668129, z: -0.021704547, w: 0.97410035}
-  m_LocalPosition: {x: 0.24, y: 3, z: 4.18}
+  m_LocalRotation: {x: 0.15548392, y: -0.61335796, z: 0.124789044, w: 0.76422805}
+  m_LocalPosition: {x: -4.1800003, y: 3, z: 0.23999977}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 665423900}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 23, y: 12.5, z: 0}
 --- !u!1 &6676702331471438
 GameObject:
