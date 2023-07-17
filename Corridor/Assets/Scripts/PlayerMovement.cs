@@ -8,7 +8,12 @@ public class PlayerMovement : MonoBehaviour
     public float bounceHeight = 0.1f; // Maximum height of the bounce effect
     public float bounceFrequency = 2f; // Frequency of the bounce effect
     public float bounceRandomness = 0.05f; // Randomness added to each bounce
-    public AudioClip[] stepSounds; // Array of step sound clips
+    public AudioClip[] stepSounds1; // Array of step sound clips
+    public AudioClip[] stepSounds2; // Array of step sound clips
+    public AudioClip[] stepSounds3; // Array of step sound clips
+    public AudioClip[] stepSounds4; // Array of step sound clips
+
+
 
     private float currentStepDistance;
     private Vector3 startPosition;
@@ -16,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isMoving = false;
     private float timeOffset = 0f;
     public AudioSource audioSource;
+
 
     private void Start()
     {
@@ -55,10 +61,26 @@ public class PlayerMovement : MonoBehaviour
 
     private void PlayStepSound()
     {
-        if (stepSounds.Length > 0)
+        float currentPosition = transform.position.x;
+        if (stepSounds1.Length > 0 && currentPosition < 50.2)
         {
-            int randomIndex = Random.Range(0, stepSounds.Length-1);
-            audioSource.PlayOneShot(stepSounds[randomIndex]);
+            int randomIndex = Random.Range(0, stepSounds1.Length-1);
+            audioSource.PlayOneShot(stepSounds1[randomIndex]);
+        }
+        if (stepSounds2.Length > 0 && currentPosition >= 50.2 && currentPosition < 100.4)
+        {
+            int randomIndex = Random.Range(0, stepSounds2.Length - 1);
+            audioSource.PlayOneShot(stepSounds2[randomIndex]);
+        }
+        if (stepSounds3.Length > 0 && currentPosition >= 100.4 && currentPosition < 150.6)
+        {
+            int randomIndex = Random.Range(0, stepSounds3.Length - 1);
+            audioSource.PlayOneShot(stepSounds3[randomIndex]);
+        }
+        if (stepSounds4.Length > 0 && currentPosition >= 150.6)
+        {
+            int randomIndex = Random.Range(0, stepSounds4.Length - 1);
+            audioSource.PlayOneShot(stepSounds4[randomIndex]);
         }
     }
 }
