@@ -1442,9 +1442,9 @@
     "m_ShaderOutputName": "Emission",
     "m_StageCapability": 2,
     "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
+        "x": 0.005545935593545437,
+        "y": 0.02772967889904976,
+        "z": 0.022183742374181749
     },
     "m_DefaultValue": {
         "x": 0.0,
@@ -2141,7 +2141,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
