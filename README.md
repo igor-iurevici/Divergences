@@ -1,2 +1,2 @@
 # Divergences
-Infinite moving corridor experience with dynamic floor material
+Infinite moving corridor experience with four different surface setups.
